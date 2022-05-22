@@ -3,5 +3,20 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: #fff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.links{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
 }
