@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>ABA1</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABA1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- logo de navegação -->
-    <link rel="shortcut icon" type="imagex/png" href="./src/img/logos/android/LogoSize_Android_store_icon_ByTailorBrands/logo_size_invert.jpg">
+    <link rel="shortcut icon" type="imagex/png" href="./src/img/logos/barraNavegacao/logo_size_invert.jpg">
+    
     <!-- link css -->
     <link rel="stylesheet" type="text/css" href="./src/css/index.css" class="logo" media="screen" />
-    
+    <link rel="stylesheet" type="text/css" href="./src/css/indexredimensional.css" class="logo" media="screen" />
+    <!-- icones -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
 </head>
 <body>
-    <div class="navbar">
+
+    <nav class="navbar">
+        <!-- LOGO -->
         <div>
-          <img src="./src/img/logos/pinterst/logo_size_invert.jpg" alt="logo do site">
+            <img src="./src/img/logos/pinterst/logo_size_invert.jpg" class="logoIMG" alt="logo do site">
         </div>
-        <div class="alinhas-horizontal">
-            
-            <a class="links" href="src/pages/cadastro.html">Cadastre-se</a>
-        </div>
-    </div> 
-    <div>
-         aqui vai ficar o fundo com o titulo do pagina
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li class="services">
+              <a href="/">Services</a>
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="/">Dropdown 1 </a></li>
+                <li><a href="/">Dropdown 2</a></li>
+                <li><a href="/">Dropdown 2</a></li>
+                <li><a href="/">Dropdown 3</a></li>
+                <li><a href="/">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+   
+      
+    <div class="capa">
+
+        calma pow
+
+         
     </div>
-    <div>
-        <button>
-            PHP
+    <div class="languages">
+        <button class="Button-language">
+            <img class="img-language" src="./src/img/languagens/js.png" alt="JavaScript">
         </button>
-        <button>
-            Python
+        <button class="Button-language">
+            <img class="img-language" src="./src/img/languagens/com001-removebg-preview.png" alt="python">
         </button>
-        <button>
-            JavaScript
+        <button class="Button-language">
+            <img class="img-language" src="./src/img/languagens/php.png" alt=" php">
         </button>
-        <button>
-            Java
+        <button class="Button-language">
+            <img class="img-language" src="./src/img/languagens/java.png" alt="">
         </button>
     </div>
 
     <footer>
+        <div class="imgfooter">
+            <img src="./src/img/logos/600px/logo_size_invert.jpg" width="600px" alt="logo do site">
+        </div>
+        <div >
+            <div class="names"> 
+                <h2>Italo Santos</h2>
+                <h3>Gammy Development</h3>
+            </div>
+            <ol style="margin-top: 20px;">
+                <li><div class="alinhar-centro"> <ion-icon class="ion-icon" name="logo-whatsapp"></ion-icon> +55 82 9968-9039 </div></li>
+                <li> <div class="alinhar-centro"><ion-icon class="ion-icon"  name="mail"></ion-icon> italogammy1033@gmail.com</div> </li>
+                <li><div class="alinhar-centro"><ion-icon class="ion-icon"  name="pin"></ion-icon> 583 Rua Baixa Fria, Maribondo, Brazil</div> </li>
+            </ol>
+        </div>
+
+        <div>
+            <a href="">Quem Somos</a>
+        </div>
+
+
 
     </footer>
     
