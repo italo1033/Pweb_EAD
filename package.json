@@ -1,0 +1,19 @@
+{
+  "name": "pweb_ead",
+  "version": "1.0.0",
+  "description": "trabalho de escola",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italo1033/Pweb_EAD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/italo1033/Pweb_EAD/issues"
+  },
+  "homepage": "https://github.com/italo1033/Pweb_EAD#readme"
+}
