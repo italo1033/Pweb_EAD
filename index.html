@@ -11,6 +11,7 @@
     <!-- link css -->
     <link rel="stylesheet" type="text/css" href="./src/css/index.css" class="logo" media="screen" />
     <link rel="stylesheet" type="text/css" href="./src/css/indexredimensional.css" class="logo" media="screen" />
+    <link rel="stylesheet" type="text/css" href="src/css/cards.css"class="logo" media="screen" />
     <!-- icones -->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
@@ -21,63 +22,160 @@
 </head>
 <body>
 
+<!-----------------------------------------------   NAV BAR  ------------------------------------------->
+
     <nav class="navbar">
-        <!-- LOGO -->
         <div>
             <img src="./src/img/logos/pinterst/logo_size_invert.jpg" class="logoIMG" alt="logo do site">
         </div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <!-- NAVIGATION MENUS -->
-          <div class="menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li class="services">
-              <a href="/">Services</a>
-              <!-- DROPDOWN MENU -->
-              <ul class="dropdown">
-                <li><a href="/">Dropdown 1 </a></li>
-                <li><a href="/">Dropdown 2</a></li>
-                <li><a href="/">Dropdown 2</a></li>
-                <li><a href="/">Dropdown 3</a></li>
-                <li><a href="/">Dropdown 4</a></li>
+        <div class="linksTop">
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/">About</a></li>
+                  <li class="services">
+                    <a href="/">Services</a>
+                    <ul class="dropdown">
+                      <li><a href="/">Sites</a></li>
+                      <li><a href="/">App Desktop</a></li>
+                      <li><a href="/">App Mobile</a></li>
+                      <li><a href="/">Banco de Dados</a></li>
+                      <li><a href="/">API</a></li>
+                    </ul>
+                  </li>
+                  <li class="services">
+                      <a href="/">Contact</a>
+                      <ul class="dropdown">
+                          <li><a href="https://web.whatsapp.com/send?phone=5582999689039" target="_blank">whats</a></li>
+                          <li><a href="https://www.instagram.com/italo_sant1/">Instagran</a></li>
+                          <li><a href="mailto:italogammy1033@gmail.com?subject=Olá">Gmail</a></li>
+                          <li><a href="https://www.linkedin.com/in/italo-santos-a029151b8/">Linkdin</a></li>
+                      </ul>
+                    </li>
+      
+                </div>
               </ul>
-            </li>
-            <li><a href="/">Pricing</a></li>
-            <li><a href="/">Contact</a></li>
-          </div>
-        </ul>
+        </div>
       </nav>
    
-      
+
+
+<!-----------------------------------------------   CAPA  ------------------------------------------->
     <div class="capa">
-
-        calma pow
-
-         
+        <img class="img-capa" src="./src/img/MeuLogo/white_logo_transparent_background.png" width="100%" height="100%">
     </div>
-    <div class="languages">
-        <button class="Button-language">
-            <img class="img-language" src="./src/img/languagens/js.png" alt="JavaScript">
-        </button>
-        <button class="Button-language">
-            <img class="img-language" src="./src/img/languagens/com001-removebg-preview.png" alt="python">
-        </button>
-        <button class="Button-language">
-            <img class="img-language" src="./src/img/languagens/php.png" alt=" php">
-        </button>
-        <button class="Button-language">
-            <img class="img-language" src="./src/img/languagens/java.png" alt="">
-        </button>
+
+    <div class="fundoBranco">
+          <section class="cards-wrapper">
+            <div class="card-grid-space">
+              <div class="num">01</div>
+              <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+                <div>
+                  <h1>Sites Web</h1>
+                  <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+                  <div class="date">19 Oct 2021</div>
+                  <div class="tags">
+                    <div class="tag">HTML5</div>
+                    <div class="tag">CSS3</div>
+                    <div class="tag">JS</div>
+                  </div>
+                  <div class="tags" style="margin-top: 5px;">
+                    <div class="tag">REACTJS</div>
+                    <div class="tag">BOOTSTRAP</div>
+                  </div>
+                  
+                </div>
+              </a>
+            </div>
+
+
+            <div class="card-grid-space">
+              <div class="num">02</div>
+              <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+                <div>
+                  <h1>Aplicativos Moveis</h1>
+                  <p>Learn about some of the most common HTML tags…</p>
+                  <div class="date">19 Oct 2021</div>
+                  <div class="tags">
+                    <div class="tag">React Native</div>
+                    <div class="tag" style="padding-top: 10px;">Flutter</div>
+                    <div class="tag">Android Studio</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="card-grid-space">
+              <div class="num">03</div>
+              <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                <div>
+                  <h1>Databases</h1>
+                  <p>Learn how to use links and images along with file paths…</p>
+                  <div class="date">19 Oct 2021</div>
+                  <div class="tags">
+                    <div class="tag">MYSQL</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-grid-space">
+                <div class="num">04</div>
+                <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                  <div>
+                    <h1>APIs</h1>
+                    <p>Learn how to use links and images along with file paths…</p>
+                    <div class="date">14 Oct 2017</div>
+                    <div class="tags">
+                      <div class="tag">Python</div>
+                      <div class="tag">Nodejs</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card-grid-space">
+                <div class="num">05</div>
+                <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                  <div>
+                    <h1>APPs Desktops</h1>
+                    <p>Learn how to use links and images along with file paths…</p>
+                    <div class="date">14 Oct 2017</div>
+                    <div class="tags">
+                      <div class="tag">JAVA</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card-grid-space">
+                <div class="num">06</div>
+                <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                  <div>
+                    <h1>Automatização de Processos</h1>
+                    <p>Learn how to use links and images along with file paths…</p>
+                    <div class="date">14 Oct 2017</div>
+                    <div class="tags">
+                      <div class="tag">Python</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+          </section>
     </div>
+
+<!-----------------------------------------------  footer ------------------------------------------->
+
 
     <footer>
         <div class="imgfooter">
             <img src="./src/img/logos/600px/logo_size_invert.jpg" width="600px" alt="logo do site">
         </div>
+
         <div >
             <div class="names"> 
                 <h2>Italo Santos</h2>
@@ -88,10 +186,6 @@
                 <li> <div class="alinhar-centro"><ion-icon class="ion-icon"  name="mail"></ion-icon> italogammy1033@gmail.com</div> </li>
                 <li><div class="alinhar-centro"><ion-icon class="ion-icon"  name="pin"></ion-icon> 583 Rua Baixa Fria, Maribondo, Brazil</div> </li>
             </ol>
-        </div>
-
-        <div>
-            <a href="">Quem Somos</a>
         </div>
 
 
