@@ -16,6 +16,9 @@
     .logoIMG{
         display: none;
     }
+    section{
+        display:flex ;flex-direction: column-reverse;align-items: center;
+    }
     .imgfooter{
         border: none;
         border-bottom: 2px solid #fff;
