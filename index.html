@@ -15,10 +15,6 @@
     <!-- icones -->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
 </head>
 <body>
 
@@ -33,7 +29,7 @@
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <div class="menu">
-                  <li><a href="/">Home</a></li>
+                  <li style="border-bottom: 1px solid #fff;"><a href="/">Home</a></li>
                   <li><a href="./src/pages/about.html">About</a></li>
                   <li class="services">
                     <a href="/">Services</a>
@@ -50,7 +46,6 @@
                       <ul class="dropdown">
                           <li><a href="https://web.whatsapp.com/send?phone=5582999689039" target="_blank">whats</a></li>
                           <li><a href="https://www.instagram.com/italo_sant1/">Instagran</a></li>
-                          <li><a href="mailto:italogammy1033@gmail.com?subject=Olá">Gmail</a></li>
                           <li><a href="https://www.linkedin.com/in/italo-santos-a029151b8/">Linkdin</a></li>
                       </ul>
                     </li>
@@ -59,6 +54,7 @@
               </ul>
         </div>
       </nav>
+
    
 
 
@@ -74,8 +70,7 @@
               <a class="card" href="https://web.whatsapp.com/send?phone=5582999689039text=Eu%20tenho%20interesse20%em20%Sites20%Web" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
                 <div>
                   <h1>Sites Web</h1>
-                  <p>Sites Responsivo e funcionais</p>
-                  <div class="date">19 Oct 2021</div>
+                  <p>Sites Responsivos</p>
                   <div class="tags">
                     <div class="tag">HTML5</div>
                     <div class="tag">CSS3</div>
@@ -98,7 +93,6 @@
                 <div>
                   <h1>Aplicativos Moveis</h1>
                   <p>Aplicativos Funcionais</p>
-                  <div class="date">19 Oct 2021</div>
                   <div class="tags">
                     <div class="tag">React Native</div>
                     <div class="tag" style="padding-top: 10px;">Flutter</div>
@@ -114,8 +108,7 @@
               <a class="card"  href="https://web.whatsapp.com/send?phone=5582999689039text=Eu%20tenho%20interesse20%em20%Databases" style="--bg-img: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAABd1BMVEX///+nqazv7+9z4///yAAADpwAUNVMXI7m5uYiVI0AAJoAT/8ATP9MUrP09PQAS///11r/ywDGoVwAAKCsrKihpq0bV9KppqijpaipqqqA1uz/xQAMUdAASP8AAJVo4f/PtnOurqYARNNQYJBhb5oASdRu2/dr1fJ/5f/TuGl7jsjS09VHlsDh4ueRmrb/0UHu7/jf4fIUVPvR9f9gwuIzc6Vzf6TN0Nr/zSRiZ7nDxuSLjsqusdqfotPAxc+Omb7/++v/9NSGlcFog9On7f9yiM/t+/+/8f8yYvDj+f9EbeYqYplYtNcbUYxPo8q4yfBAirevtch/iqv/5ZX/7bf/3Xr/5p7//PP/2Wj/7r05QKx2e8Lh3tEcJqS2uN7PzcMyOKhaX7bivFLW4P/NrlERHKE9au1ESa4UWPjG4+tffdpZd+BwidI4aOn/992FiMhby//Uw6QuYtFDbM2ht+xgh+GJo+aDj6I8g7GRlqRfa592fqmiqcC//hG9AAAMRUlEQVR4nO3d/WPTxhkHcMuQxNjChlai1kChJrbJHOwmAhK6bnaQMKgOMBKgbO021rIFYRHoutHgLX/87k6yrZeTdLJkSyL3/aWQ2Cb+5O55TndKmsvR0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQZCC7T5P+ClKXp5cvJP0lpCzP7lw+m32T8jgxvNbdC5fPns2uCUDI4xIB58XzsyhZNPHQsNOEf9nvzl7OqAmBx0wud++YIlkzCQESjuXdhYlItkxCi5CqvHh62UKSHZOZQMhUnt2ximTHZGaRQJW7X9lFsmIy+yAx4/nKu39yimTEJKqI91CxF5IMmcRAgkf58x2MSCZMYiHBoNy9gBXJgklMJM6aMl7Ip8Dk/O9DPiFyecWjTBbyaTBZ/X4r1BPiI7HMHo9CkpRJsbj6wyb542McJpOB8s6rkCRmsrRULJJPoDhJDJMXT32mTWImS0urr39H+PjYTZwL+dSYgKHyNdkEitWkjFnIp8cEqKx+Q/L4WE3+glnIp8kETKC/Bk+gfCFGksJvSUQSNQFD5eugvlzYiI+kvJEBE1hWvvHf3SgwMTZjJhMmcAL9ze/h+epGXCjll3xGTMAEOu8zgfLVakwVpVyoZsYEqngvbPNVhokFBZAwGTLxW9hCE6YQffpAkmyZgLJyHt+XkQnTjozyEr5OxkzAUMFOIMOk2o04SGroZfgvs2UCVf7gZcJUmdnbTzn/kjGSPRPswtY0gSo7+VlYyu1utZphE8zCdmICVPhuO/QQsYhk1AQtbL1MgEp1f6dAPFogCG99elZNwAT6u3UC2UzQYGG67a3Amy2AR7vLVB1PzqwJGCo/TieQ0wSNFp7Z32hv4m/KAR/dau90Gd4JkmkTMFRWJ0MFY2K4gI/vdzc2dra2Nk2azTbA2OjuG5/EhdTkpxD7xYsxsV0AeZhMZFCsf/Z7PKHJxc8+D3vgMmcT+4Wyr0nYkJusfk+6X7wAE+eGSkImJNtdCzIprv7oXJ/ESMLwPxGbuFcFCZms/tM1Yrf4OE2+CmESuN21CBPsN+ZVS4iNRJD/cTGMCRi2rxcygbyvi7ET+JXKxWbCDb4MZwJV3i+gL3vtn3gU+i2xFReK0JPIa6xlPs+/L3vss2G2CVDyaomPZ/YIvHb48inJmZfNBE6gefdl7H6s9zlpvi9qTBwoAqeKrY3AWwrcJiHOceMzsV/0OU2qWkWNYaQIvCoechu5oFtPcCZ+43guJsUl338uL/REVutErSlcT2Klk+oGek2/W5TwJgHfuHhNPHZhp3lTrSmVUuktF2WoCILCsqzMmSa53ee+KDgTzHJyTiZB/f/m+m++YLihWBLVXm1WFaHWUitsSeaYsQnu3ukgE7R+mlNZsZgUAy4/79+7egaYMFwfjBR2cDKTilCT1Uqpgqbf1CSXe3bRU8XDBC5s59OXLfef/OD/SCByBpmAaqBVSmzlSK6FnEICx4ExUiqJA1SmrSa53HPcLdS+JqAtz2WkjO9T8j0lBrl5BpIYJuC9DVm2xIqawgukLILAMT2dhUNMk2voQ3YT7K32fiZzq7Pm/WwBl1ffriORsQnD1DpHQKVUEQ+VDg+Giy+MADy4E1nXRPgUbVKgHSagL2PLCt5kjv3YuO/Rv1rdv2eKTE3AUOnpJfBNByzaoSJ3OAjjkoEatRrfaw3UEgRhRbXPTxq5ywTfl3EmgQ0ymklgV3twZkIyNYEqvKLCNwpdJADzXj7hgcA0HMPLLeVQ0yoV+DBWlPSeYFnaYExyL9x9GWMy3/X9+dUl/5e/uT4VsZlAFaE31ET0hsFbhv+VJEk9OhocqZoEY3wQfVIs6TJjLz44k1zunXMCuUxWi/PdSHntv3t13ybiMEEsNb6la5P3bsT6Z/QpTe+fuJsU3gSUFXtfdpgUi+/n4GANaSHxMEE1A7jIfR0MDfD+wTRBqcCwJUlTh+9lUIVx7cnLJJez3VptM/HY11lYrIXE22QCw406stzqD/Whrn9Q+q2WLPdGnE9T8jaxLfetJovdwHfl5rpLxNtkLAO7rhHBiN/DfUysy/2pyZyvh4PinjYEJiHjazJd7o9Nwv0ASfzBiwCTGEmCTOBPTE5NFrVB7ZWb7kJi5nqcZxnVdtAXsgu34ZDJwg4y8PkWV0jM/NyJ7yyDGRF848FyH5gUPw+4v3u+8SgkYxM9xrMM5Y8kX9B3Fz9LvP/65mcx8mbs9Pka2Tvd/Vf6+q+txkqHtWgkfM9cvtV0KajGpiB+hWRsootKNBR++ZcTqFLri8PUm/gXkrFJhxX7kVD4S41rCrh+7ovSKO0mmIU8zqQ2rLBKlF17/tLycuNKSxErCpduk8BCMjb5glPZyoCfvftAE6DSkAZc4JotyTh3BPxMBF5jWak181GGYQLybz7N44SkkExM4LEmWxLVzmwTSGDGJo2GkloTskIyNQFvawDPI456xHv2UxGOaS1P0rhEtGhbeAj6r9MEvLOWVDH2m8NMIYHjOkOtsmzJtWGiC1RsiPqvywQsy3kdHWVIgxZPdPAF95x6igqfZDUBE+jXRK//3bkXDmRqAr7nHeP8qiKpiizg9xYnw6NW6/R1DR19iNqyPY0r/0mawRLvHYFgE+MoQ0I703DbVVd6gn2DbfLXztvhIWvsYbMVtTXpO9MJ9MurpCnMhCwkLhO0Zy8PJJY1zyrEyqGu68O+3AHpya23Q10faKI4PuuolFSlU+PcJkDlQxomUOhCgjGBLDWmN1SlyvgUB23YizDmBv74OKOkHSodNMFwJrCsJLk/ghKq//qYGKNlJCsDVRItCOOjHUAkVrRDvdWZlGKsCRgqCfdl0oU8kYnpIvAdWQGTBZ7yGJE0daArrd4Jz1mPMzxMgIqeXF+erZD4mhjdVjAqrP0jruMMTxMwgd4mNIHuzzptQJrXH0Y+y/A2ASrXkurLsxaT5vVbj59E3qL2M0mwL8/WdADJjdu3o5IEmICh8iGhsjJDTQHz5sbtvXORz3cCTIDK8q/JoIRexKJRsnfu0fHcTZLsyw9CoTQRyblHa1ELCoFJgn05TFlp3noMSQDKcUQUIhNQVt4mtNwnLyvXH35EJCARf0qSzASWlZT3ZThzTJJHe4sxgX05qbJCNIEswyQqSgiT5HZWCDbtm9cfj4cJQolyZkw8d64l1ZJRAq8JLVMHoUTpyKQ1NvEtlYCy0rz1ZO+cNY/WRpHPd3ynTWKlxBL/vuwyAUOlPpuKQGCSmi1av74M5o7DBKicqx/739aIE2GO61cCp01SSxNMvJf7jnoyGSt7x9Uw5zvC6GBlZSXAJMmtJVw8b1Ky9R0ry0r9mGfIfrh2tL2C4muS9BYkJh5lBVwTOwuKGfQutw9GfBXAeN4vzR9v11fG8TFpNBLtv17BlpXm5HIHawKzVt8+Ho1G6BdrTe6g5vnR6MDC4W+S3NZJYHB92XOgrDiztlafZs31aR+T9Bx94eKeQE2wkv2IQ8G96YDgTRqNlPRfr7iX+3D24FBiMgH9N/Ezr8A4l/tNuEGNQYnHJG391yuOsuKBEodJKhbyZHH0ZYTyxNl9opsktyU9U+x9GaKgrftYTdLbf71iW+43MUMlokm6+69Hym/OOFAePv54e28vFpPktlwjpVwo3LOhIJUnt8eDJYJJ+m5lIwwwKbyxFFuIAlVumIMlHMcaWOX+N7OFZBxoAlSmxbZpjBU4WCALeJdhQOrbBz00TlJ4/Uscw6RQeGAbKmiwoNHyv21wVbMWIIMeAD06J/vdnUtoIZ/+ZatnxiagrDhUDJb9/ZPOwfZ23ZSx45gfqSMO5NFu5zcvpWD/OVKmJtYJNGVpt3d2uhCmc3AAbLbrtoAPII2TfeRRgL+JefNKFvuvNRYTrAr8HdSFNpKBNCgdMyfQYr/b3QEcbeNXU4MZU85uITFjM7H1ZZR1+D+IN385N6RBOtPAvxcMDOTxacRhUmjbL4LWzUdZY/2V5eVPjAPFaeKYQOv2B2OS0Nc9z7hNQF/2MjklwZlYygo1cU8gauJWoSaOsnKVmmDKylVqgplASX99ScTfpPApLj8C42uSD37+pxgfk1Mq4mdyKqcNipfJ6RXxMjm10wYFZ3K6RbAmp3naoLhMTvsgyblMqEjOaXLqpw1KmYq4UqbTxpWJSdJfSIpSptPGlTIVcaVMC4krZTpIaGhoaGhoaKLl/3lTeNJvMGWmAAAAAElFTkSuQmCC')">
                 <div>
                   <h1>Databases</h1>
-                  <p>Diagramas, Criação de Bancos e CRUD</p>
-                  <div class="date">19 Oct 2021</div>
+                  <p>Diagramas, Script e Crud</p>
                   <div class="tags">
                     <div class="tag">MYSQL</div>
                   </div>
@@ -128,7 +121,6 @@
                 <a class="card"  href="https://web.whatsapp.com/send?phone=5582999689039text=Eu%20tenho%20interesse20%em20%APIs" style="--bg-img: url('https://qph.cf2.quoracdn.net/main-qimg-f08207c22aaace3c95ffde03fbf027a7')">
                   <div>
                     <h1>APIs</h1>
-                    <div class="date">14 Oct 2017</div>
                     <div class="tags">
                       <div class="tag">Python</div>
                       <div class="tag">Nodejs</div>
@@ -143,7 +135,6 @@
                   <div>
                     <h1>APPs Desktop</h1>
                     <p>Apps desktop para seu comercio</p>
-                    <div class="date">14 Oct 2017</div>
                     <div class="tags">
                       <div class="tag">JAVA</div>
                     </div>
@@ -157,7 +148,6 @@
                   <div>
                     <h1>Automatização de Processos</h1>
                     <p>Automatização de Processos para agilizar sua vida.</p>
-                    <div class="date">14 Oct 2017</div>
                     <div class="tags">
                       <div class="tag">Python</div>
                     </div>
@@ -172,7 +162,7 @@
 
     <footer>
         <div class="imgfooter">
-            <img src="./src/img/logos/600px/logo_size_invert.jpg" width="600px" alt="logo do site">
+            <img src="./src/img/MeuLogo/white_logo_dark_background.jpg" width="600px" alt="logo do site">
         </div>
 
         <div >
