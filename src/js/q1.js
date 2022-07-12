@@ -13,13 +13,12 @@ function maiorMenor() {
 function vogal() {
     for (let i = 0; i < 5; i++) {
         var vogal=prompt("digite uma letra");
-        if(vogal != 'a' || vogal != 'A'|| vogal != 'e' || vogal != 'E'|| vogal != 'i' || vogal != 'I' || vogal != 'o' || vogal != 'O' || vogal != 'u' || vogal != 'U'){
+        if(vogal == 'a' || vogal == 'A'|| vogal == 'e' || vogal == 'E'|| vogal == 'i' || vogal == 'I' || vogal == 'o' || vogal == 'O' || vogal == 'u' || vogal == 'U'){
             alert("1");
         }
         else{
             alert("0");
         }
-        arrayList.push(numero);
       }
 }
  function limites() {
