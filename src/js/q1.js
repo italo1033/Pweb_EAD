@@ -1,4 +1,4 @@
-function maiorMenor() {
+function questao1() {
     var arrayList=[];
     const contador= 0;
     for (let i = 0; i < 5; i++) {
@@ -10,7 +10,7 @@ function maiorMenor() {
     alert("Menor numero "+Math.min(...arrayList));
     
 }
-function vogal() {
+function questao2() {
     for (let i = 0; i < 5; i++) {
         var vogal=prompt("digite uma letra");
         if(vogal == 'a' || vogal == 'A'|| vogal == 'e' || vogal == 'E'|| vogal == 'i' || vogal == 'I' || vogal == 'o' || vogal == 'O' || vogal == 'u' || vogal == 'U'){
@@ -21,7 +21,7 @@ function vogal() {
         }
       }
 }
- function limites() {
+ function questao3() {
     var intervalo = [];
     var inicio=prompt("digite o inicio do intervalo: ");
     const final=prompt("digite o final do intervalo: ");
@@ -32,22 +32,24 @@ function vogal() {
     for (inicio; inicio <= final; inicio++) {
         intervalo.push(inicio);
     }
+    var newIntervalor=[]
     var somador=0;
     for (const key in intervalo) {
         if(intervalo[key]%2 == 0){
+            newIntervalor.push(intervalo[key])
             somador=somador+intervalo[key]
         }
     }
-    alert(somador) 
+    alert("intervalor:"+newIntervalor+"="+somador) 
     
     
     
  }
 
- function ordem() {
+ function questao4() {
     var arrayList=[];
     const contador= 0;
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 3; i++) {
         let numero=prompt("Digite um nunero");
         arrayList.push(numero);
       }
@@ -57,13 +59,13 @@ function vogal() {
     
  }
 
- function positivoNegativo() {
+ function questao5() {
     for (let i = 0; i < 5; i++) {
-        var numero=prompt("digite uma letra");
-        if(Math.sign(numero) == 1){
+        var letra=prompt("digite uma letra");
+        if(Math.sign(letra) == 1){
             alert("true");
         }
-        else if(Math.sign(numero) == -1){
+        else if(Math.sign(letra) == -1){
             alert("false");
         }
         else{
@@ -73,14 +75,14 @@ function vogal() {
     
 }
 
-function parImpa() {
+function questao6() {
     for (let i = 0; i < 5; i++) {
-        var numero=prompt("digite uma letra");
+        var numero=prompt("digite uma par");
         if(numero %2 == 0){
-            alert("Par");
+            alert("true");
         }
         else{
-            alert("impar")
+            alert("false")
         }
       }
     
